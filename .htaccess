@@ -1,0 +1,65 @@
+# archivo .htaccess
+
+RewriteEngine on
+
+RewriteRule ^home$ controllers/Inicio.php
+
+RewriteRule ^productos$ controllers/listaProductos.php
+
+RewriteRule ^buscar$ controllers/Buscar.php
+
+RewriteRule ^categorias$ controllers/listaCategorias.php
+
+RewriteRule ^alta-producto$ controllers/AltaProducto.php
+
+RewriteRule ^carrito$ controllers/carrito.php
+
+RewriteRule ^carrito([0-9]+)$ controllers/carrito.php?id=$1
+
+RewriteRule ^clientes$ controllers/listadoClientes.php
+
+RewriteRule ^facturas$ controllers/ListadoFacturas.php
+
+RewriteRule ^modificar-producto$ controllers/ModificarProducto.php
+
+RewriteRule ^DetalleFacturas$ controllers/DetalleFacturas.php
+
+RewriteRule ^detallepresupuesto$ controllers/DetallePresupuesto.php
+
+RewriteRule ^presupuestos$ controllers/ListadoPresupuestos.php
+
+RewriteRule ^alta-cliente$ controllers/AltaCliente.php
+
+RewriteRule ^agregado-correcto$ controllers/AltaClienteOk.php
+
+RewriteRule ^alta-categoria$ controllers/AltaCategoria.php
+
+RewriteRule ^agregado-categoria$ controllers/AltaCategoriaOk.php
+
+RewriteRule ^finalizar-compra$ controllers/Finalizarcompra.php
+
+RewriteRule ^compras$ controllers/compras.php
+
+RewriteRule ^nuevo-presupuesto$ controllers/generarpresupuesto.php
+
+RewriteRule ^productos([0-9]+)$ controllers/listaProductos.php?c=$1
+
+RewriteRule ^detalle$ controllers/detalleproducto.php
+
+RewriteRule ^claveproduc$ controllers/ClaveAccesoAltaProductos.php
+
+RewriteRule ^modificarcliente$ controllers/ModificarCliente.php
+
+RewriteRule ^eliminarcliente$ controllers/EliminarCliente.php
+
+RewriteRule ^eliminarproducto$ controllers/EliminarProducto.php
+
+RewriteRule ^clave-modificar-producto$ controllers/ClaveModificarProducto.php
+
+RewriteRule ^imprimir$ controllers/Imprimir.php
+
+RewriteRule ^imprimir-presupuesto$ controllers/ImprimirPresupuesto.php
+
+RewriteRule ^eliminarprocar$ controllers/eliminarprocar.php
+
+RewriteRule ^vaciar-carrito$ controllers/VaciarCarrito.php
