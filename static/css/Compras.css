@@ -1,0 +1,79 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	width: 1170px;
+	margin: auto;
+}
+header{ 
+	background: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: 
+}
+
+.barra-superior li a:hover{
+	background-color: #FFF;
+	color: #333;
+}
+.barra-superior{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.barra-superior li{
+	display: inline-block;
+}
+.barra-superior li a{
+	border: 1px solid #FFF;
+	color:#FFF;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+
+}
+
+.logo img{
+	margin-top: 30px;
+	width: 300px;
+	float: left;
+	height: auto;
+}
+.text-bienvenido{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin:13% 30%;
+	text-align: center;
+}
+.text-bienvenido h1{
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 60px;
+
+}
+.text-bienvenido a{
+	border: 1px solid #FFF;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color:#FFF;
+
+}
+.text-bienvenido a:hover{
+	background:#FFF;
+	color:#333;
+
+}

@@ -1,0 +1,92 @@
+
+
+body{
+background: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: 
+}
+
+	h1{
+		text-align: center;
+		position: relative;
+	}
+	
+
+.logo img{
+	margin-top: 10px;
+	margin-left: 30px;
+	width: 300px;
+	float: left;
+
+}
+
+.form{
+	
+	background-color: #4682B4;
+	border:2px solid #fff;
+	border-radius: 5px;
+	padding: 17px;
+	width: 320px;
+	position: absolute;
+	margin-top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+	
+.barra-superior li a:hover{
+	background-color: #FFF;
+	color: #333;
+}
+
+	.barra-superior{
+	text-align: right;
+	margin-right: 145px;
+	margin-top: 30px;
+
+	}
+
+	.barra-superior li{
+		display: inline-block;
+	
+	}
+
+	.barra-superior li a{
+		border: 1px solid #FFF;
+		color:#FFF;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-family: poppins;
+		font-size: 16px;
+
+	}
+.presupuesto{
+	
+	background-color: #4682B4;
+	border:2px solid #fff;
+	border-radius: 5px;
+	padding: 17px;
+	width: 320px;
+	position: absolute;
+	margin-top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.pres{
+
+    margin-left:28%;
+
+
+}
+.metodopago{
+	width:130px;
+}
+.clien{
+	width: 192px;
+
+
+}

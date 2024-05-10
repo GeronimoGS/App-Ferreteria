@@ -1,0 +1,100 @@
+
+
+	h1{
+		text-align: center;
+		position: relative;
+	}
+	h1::after,h1::before{
+		content: '';
+		position: absolute;
+		width:120px; 
+		height: 3px;
+		background-color: black;
+		top: 0.6em;
+	}
+
+
+	
+	.barra-superior{
+	text-align: right;
+	margin-right: 50px;
+
+	}
+
+	.barra-superior li{
+		display: inline-block;
+	
+	}
+
+	.barra-superior li a{
+		border: 1px solid #FFF;
+		color:#FFF;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-family: poppins;
+		font-size: 16px;
+
+	}
+	.barra-superior li a:hover{
+		background-color: #FFF;
+		color: #333;
+	}
+
+	h1::before{
+		left: 340px;
+		
+	}
+
+	h1::after{
+		right:  340px;
+		
+	}
+	
+
+	body{
+		background: url("fondo.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		height: 100vh;
+		background-size: cover;
+		background-position: center center;
+	
+	}
+	.main-conteiner{
+		margin: 10px auto;
+	
+		
+	}
+	
+
+	
+	.producto{
+		background-color: #4682B4;
+		display: table;
+		border: medium #C0C0C0 solid;
+		width: 400px;
+	}
+	 .Heading{
+	    display: table-row;
+    	font-weight: bold;
+    	text-align: center;
+    }
+     .cell
+
+        {
+
+            display: table-cell;
+
+            border: solid;
+
+            border-width: thin;
+
+            padding-left: 5px;
+
+            padding-right: 5px;
+
+        }
+	.row{
+    	display: table-row;
+    }
+        

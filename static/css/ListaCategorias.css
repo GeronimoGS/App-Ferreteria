@@ -1,0 +1,104 @@
+
+
+
+	h1{
+		text-align: center;
+		position: relative;
+	}
+	h1::after,h1::before{
+		content: '';
+		position: absolute;
+		width:120px; 
+		height: 3px;
+		background-color: black;
+		top: 0.6em;
+	}
+
+
+	
+	.barra-superior{
+	text-align: right;
+	margin-right: 50px;
+
+	}
+
+	.barra-superior li{
+		display: inline-block;
+	
+	}
+
+	.barra-superior li a{
+		border: 1px solid #FFF;
+		color:#FFF;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-family: poppins;
+		font-size: 16px;
+
+	}
+	.barra-superior li a:hover{
+		background-color: #FFF;
+		color: #333;
+	}
+
+	h1::before{
+		left: 340px;
+		
+	}
+
+	h1::after{
+		right:  340px;
+		
+	}
+	.list{
+		text-transform: capitalize;
+	}
+
+	body{
+		background: url("fondo.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		height: 100vh;
+		background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+	}
+	.main-conteiner{
+		margin: 10px auto;
+	
+		
+	}
+	.list{
+		
+		text-align:  center;
+		margin-top: 30px;
+		margin-left:  30%;
+		background-color :white;
+		text-align: left;
+		border-collapse: collapse;
+		width: 600px;
+	}
+	table{
+
+		background-color :white;
+		text-align: left;
+		border-collapse: collapse;
+		width: 600px;
+	}
+	th,td{
+		border: solid 1px black;
+		padding: 3px;
+	}
+	thead{
+		background-color:#246355 ;
+		border-bottom: solid 5px #246355;
+		color: white; 
+	}
+	tr:nth-child(even){
+		background-color: #ddd;
+	}
+	tr:hover td{
+		background-color: #369681;
+		color:white;
+	}
